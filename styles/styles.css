@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+
+    width: 1200px;
+    background: #E5E5E5;
+}
+
+.main__content {
+    padding: 102px 217px 107px 88px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+    margin: auto;
+}
+
+.projects__title {
+    font-size: 45px;
+
+}
+
+.work {
+    padding: 0%;
+}
+
+.sidebar {
+    background: #1E2939;
+}
+
+.img {
+    width: 370px;
+}
