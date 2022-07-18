@@ -75,11 +75,28 @@ li {
     color: #000000;
 }
 
-.projects__list {
+.projects__content {
     padding: 0;
     margin-left: 20px;
 }
 
+.projects__list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #595959;
+}
+
+.projects__items {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
 
 .work {
     padding: 0%;
