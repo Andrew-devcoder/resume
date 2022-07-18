@@ -2,6 +2,28 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    margin-bottom: 24px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+
+    color: #000000;
+}
+
+h2 {
+    margin-bottom: 19px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
 li {
     line-height: 24px;
 }
@@ -11,7 +33,8 @@ li {
     flex-direction: row-reverse;
     margin: 0 auto;
 
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     background: #E5E5E5;
 }
 
@@ -22,27 +45,131 @@ li {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.about {
+    margin-bottom: 40px;
+}
+
+.about__content {
+    max-width: 400px;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #595959;
+}
+
 .projects {
-    margin: auto;
+    margin-bottom: 51px;
 }
 
-.projects__title {
-    font-size: 45px;
+.projects__title,
+.work__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
 
+    color: #000000;
 }
+
+.projects__list {
+    padding: 0;
+    margin-left: 20px;
+}
+
 
 .work {
     padding: 0%;
 }
 
+.work__list {
+    padding: 0;
+    margin-left: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #595959;
+}
+
+
+.company {
+    margin-top: 16px;
+}
+
+.company_title {
+    padding: 0;
+    margin-bottom: 11px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.orange_mark {
+    color: #FB6D3A;
+}
+
+.black_line {
+    color: #000000;
+    font-weight: 500;
+    padding: 0 5px;
+
+}
+
+.work__date { 
+    margin-bottom: 8px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #A8A8A8;
+}
+
+.education__title {
+    margin-top: 43px;
+    margin-bottom: 12px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.education__management { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
 .sidebar {
     padding-top: 40px;
     background: #1E2939;
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
 }
 
 .img {
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     margin-bottom: 51px;
 }
 
