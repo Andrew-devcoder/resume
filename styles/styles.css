@@ -80,13 +80,17 @@ li {
     margin-left: 20px;
 }
 
-.projects__list {
+.projects__list,
+.projects__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 
     color: #595959;
+    
+    text-decoration: none;
+    margin-left: 13px;
 }
 
 .projects__items {
@@ -131,6 +135,7 @@ li {
     color: #000000;
 }
 
+/* color */
 .orange_mark {
     color: #FB6D3A;
 }
@@ -139,7 +144,6 @@ li {
     color: #000000;
     font-weight: 500;
     padding: 0 5px;
-
 }
 
 .work__date { 
