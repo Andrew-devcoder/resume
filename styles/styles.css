@@ -1,3 +1,17 @@
+@media (max-width: 800px) {
+    .main {
+        max-width: 400px;
+    }
+    .about__content {
+        max-width: 133.33px;
+    }
+    .sidebar,
+    .img {
+        max-width: 123.33px;
+    }
+    .
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
