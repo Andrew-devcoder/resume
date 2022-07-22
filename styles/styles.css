@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Calibri';
 }
 
 h1 {
@@ -35,13 +35,17 @@ li {
 
     width: 1200px;
     background: #E5E5E5;
+
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+
+    border-radius: 20px;
 }
 
 .main__content {
-    padding: 102px 217px 107px 88px;
+    padding: 50px 250px 100px 90px;
 
     background: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0 20px 20px 0;
 }
 
 .about {
@@ -180,14 +184,18 @@ li {
 }
 
 .sidebar {
-    padding-top: 40px;
+    padding-top: 0px;
     background: #1E2939;
-    width: 370px;
+    width: 360px;
+
+    border-radius: 20px 0 0 20px;
 }
 
 .img {
-    width: 370px;
-    margin-bottom: 51px;
+    width: 360px;
+    margin-bottom: 30px;
+
+    border-radius: 20px 0 0 0;
 }
 
 .sider__title {
@@ -201,7 +209,7 @@ li {
     margin-bottom: 8px;
 }
 
-.contactType {
+.contactIcon {
     color: #FFFFFF;
     padding-right: 10px;
     font-style: normal;
@@ -256,3 +264,4 @@ li {
     font-size: 14px;
     line-height: 24px;
 }
+
