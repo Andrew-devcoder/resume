@@ -228,16 +228,10 @@ li {
 
 .sidebar__contacts, 
 .sidebar__tech, 
-.sidebar__soft {
+.sidebar__soft,
+.sidebar__additional {
     margin-left: 40px;
-}
-
-.sidebar__contacts {
     margin-bottom: 47px;
-}
-
-.sidebar__tech {
-    margin-bottom: 44px;
 }
 
 .list {
