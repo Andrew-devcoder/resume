@@ -229,7 +229,8 @@ li {
 .sidebar__contacts, 
 .sidebar__tech, 
 .sidebar__soft,
-.sidebar__additional {
+.sidebar__additional,
+.sidebar__languages {
     margin-left: 40px;
     margin-bottom: 47px;
 }
