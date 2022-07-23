@@ -9,6 +9,7 @@ h1 {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
+    word-spacing: 10px;
 
     color: #000000;
 }
@@ -262,4 +263,5 @@ li {
     font-size: 14px;
     line-height: 24px;
 }
+
 
