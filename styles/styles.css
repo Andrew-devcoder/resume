@@ -1,5 +1,5 @@
 body {
-    font-family: 'Calibri';
+    font-family: 'Calibri', 'Arial', sans-serif;
 }
 
 h1 {
@@ -33,12 +33,10 @@ li {
     display: flex;
     flex-direction: row-reverse;
     margin: 0 auto;
-
     width: 1200px;
+
     background: #E5E5E5;
-
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-
     border-radius: 20px;
 }
 
@@ -85,6 +83,8 @@ li {
 
 .projects-list,
 .projects-link {
+    margin-left: 13px;
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -93,7 +93,6 @@ li {
     color: #595959;
     
     text-decoration: none;
-    margin-left: 13px;
 }
 
 .projects-items {
@@ -154,9 +153,11 @@ li {
 }
 
 .black-line {
-    color: #000000;
-    font-weight: 500;
     padding: 0 5px;
+
+    font-weight: 500;
+
+    color: #000000;
 }
 
 
@@ -179,14 +180,13 @@ li {
     line-height: 17px;
 
     color: #000000;
-
 }
 
 .sidebar {
     padding-top: 0px;
-    background: #1E2939;
     width: 360px;
 
+    background: #1E2939;
     border-radius: 20px 0 0 20px;
 }
 
@@ -198,23 +198,25 @@ li {
 }
 
 .sider-title {
+    margin-bottom: 8px;
+
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
 
     color: #FFFFFF;
-
-    margin-bottom: 8px;
 }
 
 .contact-icon {
-    color: #FFFFFF;
     padding-right: 10px;
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
+
+    color: #FFFFFF;
 }
 .contact-link {
     font-style: normal;
@@ -236,15 +238,15 @@ li {
 }
 
 .list {
+    padding: 0px;
+    margin-left: 20px;
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 
     color: #FFFFFF;
-
-    padding: 0px;
-    margin-left: 20px;
 }
 
 .list-li {
@@ -252,11 +254,12 @@ li {
 }
 
 .list-text {
-    color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+
+    color: #FFFFFF;
 }
 
 
