@@ -1,3 +1,17 @@
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
 body {
     font-family: 'Calibri', 'Arial', sans-serif;
 }
@@ -91,8 +105,6 @@ li {
     line-height: 24px;
 
     color: #595959;
-    
-    text-decoration: none;
 }
 
 .projects-items {
