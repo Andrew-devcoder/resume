@@ -12,6 +12,10 @@ h6 {
     font-size: inherit;
 }
 
+img {
+    vertical-align: top;
+}
+
 body {
     font-family: 'Calibri', 'Arial', sans-serif;
 }
