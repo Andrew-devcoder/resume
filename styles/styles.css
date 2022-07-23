@@ -197,6 +197,15 @@ li {
     border-radius: 20px 0 0 0;
 }
 
+.sidebar-contacts, 
+.sidebar-tech, 
+.sidebar-soft,
+.sidebar-additional,
+.sidebar-languages {
+    margin-left: 40px;
+    margin-bottom: 47px;
+}
+
 .sider-title {
     margin-bottom: 8px;
 
@@ -226,15 +235,6 @@ li {
 
     color: #FFFFFF;
     opacity: .5;
-}
-
-.sidebar-contacts, 
-.sidebar-tech, 
-.sidebar-soft,
-.sidebar-additional,
-.sidebar-languages {
-    margin-left: 40px;
-    margin-bottom: 47px;
 }
 
 .list {
