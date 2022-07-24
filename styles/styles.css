@@ -45,11 +45,14 @@ li {
     line-height: 24px;
 }
 
-.main {
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main__container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 auto;
-    width: 1200px;
 
     background: #E5E5E5;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
