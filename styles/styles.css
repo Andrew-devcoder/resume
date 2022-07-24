@@ -74,6 +74,9 @@ li {
     h1 {
         font-size: 40px;
     }
+    body {
+        font-size: 12px;
+    }
 }
 
 /* MOBILE */
@@ -258,7 +261,18 @@ li {
     margin-bottom: 47px;
 }
 
-.sider-title {
+@media (max-width: 991.98px) {
+    .sidebar-contacts,
+    .sidebar-tech,
+    .sidebar-soft,
+    .sidebar-additional,
+    .sidebar-languages {
+        margin-left: 17px;
+        margin-bottom: 27px;
+    }
+}
+
+.sidbar-title {
     margin-bottom: 8px;
 
     font-style: normal;
@@ -267,6 +281,22 @@ li {
     line-height: 1.2;
 
     color: #FFFFFF;
+}
+
+@media (max-width: 991.98px) {
+    .sidbar-title {
+        font-size: 18px;
+    }
+}
+
+.sidebar-info {
+    margin: 14px 0;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar-info {
+        margin: 7px 0;
+    }
 }
 
 .contact-icon {
