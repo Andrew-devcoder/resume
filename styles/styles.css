@@ -53,6 +53,7 @@ li {
 
 [class*="__block"] {
     margin-bottom: 50px;
+    padding: 0;
 }
 
 /* color */
@@ -129,10 +130,6 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-}
-
-.work__block {
-    padding: 0%;
 }
 
 .company {
