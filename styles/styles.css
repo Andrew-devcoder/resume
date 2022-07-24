@@ -10,6 +10,7 @@ h5,
 h6 {
     font-weight: inherit;
     font-size: inherit;
+    margin: 0;
 }
 
 img {
@@ -20,6 +21,7 @@ body {
     font-family: 'Calibri', 'Arial', sans-serif;
     font-size: 14px;
     color: #000000;
+    margin: 0;
 }
 
 h1 {
@@ -30,7 +32,6 @@ h1 {
     font-size: 45px;
     line-height: 55px;
     word-spacing: 10px;
-
 }
 
 h2 {
@@ -50,12 +51,28 @@ li {
     margin: 0 auto;
 }
 
+[class*="__block"] {
+    margin-bottom: 50px;
+}
+
+/* color */
+.orange-mark {
+    color: #FB6D3A;
+}
+
+.black-line {
+    padding: 0 5px;
+
+    font-weight: 500;
+}
+
 .wrapper {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     flex-direction: row-reverse;
+    margin: 8px auto;
 }
 
 .main__container {
@@ -69,11 +86,8 @@ li {
     background: #FFFFFF;
 }
 
-.about {
-    margin-bottom: 40px;
-}
-
 .about-content {
+    margin: 0;
     width: 500px;
 
     font-style: normal;
@@ -83,16 +97,16 @@ li {
     color: #595959;
 }
 
-.projects {
-    margin-bottom: 51px;
-}
-
 .projects-title,
 .work-title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
+}
+
+.work-title {
+    margin-bottom: 14px;
 }
 
 .projects-content {
@@ -117,34 +131,12 @@ li {
     line-height: 24px;
 }
 
-.work {
+.work__block {
     padding: 0%;
 }
 
-.work-date { 
-    margin-bottom: 8px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-
-    color: #A8A8A8;
-}
-
-.work-list {
-    padding: 0;
-    margin-left: 20px;
-
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-
-    color: #595959;
-}
-
 .company {
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .company-title {
@@ -157,20 +149,29 @@ li {
     line-height: 20px;
 }
 
-/* color */
-.orange-mark {
-    color: #FB6D3A;
+.date {
+    margin-bottom: 8px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #A8A8A8;
 }
 
-.black-line {
-    padding: 0 5px;
+.company-list {
+    padding: 0;
+    margin-left: 20px;
 
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #595959;
 }
-
 
 .education-title {
-    margin-top: 43px;
     margin-bottom: 12px;
 
     font-style: normal;
