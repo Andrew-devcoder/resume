@@ -235,6 +235,10 @@ li {
     opacity: .5;
 }
 
+.contact-link:hover {
+    opacity: 1;
+}
+
 .list {
     padding: 0px;
     margin-left: 20px;
