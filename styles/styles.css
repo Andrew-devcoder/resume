@@ -18,6 +18,7 @@ img {
 
 body {
     font-family: 'Calibri', 'Arial', sans-serif;
+    font-size: 14px;
 }
 
 h1 {
@@ -37,7 +38,6 @@ h2 {
 
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 17px;
 
     color: #000000;
@@ -74,7 +74,6 @@ li {
 
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
 
     color: #595959;
@@ -105,7 +104,6 @@ li {
 
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
 
     color: #595959;
@@ -114,7 +112,6 @@ li {
 .projects-items {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 24px;
 
     color: #000000;
@@ -141,7 +138,6 @@ li {
 
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
 
     color: #595959;
@@ -192,7 +188,6 @@ li {
 .education-management { 
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 17px;
 
     color: #000000;
@@ -238,7 +233,6 @@ li {
 
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 24px;
 
     color: #FFFFFF;
@@ -246,7 +240,6 @@ li {
 .contact-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;  
 
     color: #FFFFFF;
@@ -259,7 +252,6 @@ li {
 
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
 
     color: #FFFFFF;
@@ -272,7 +264,6 @@ li {
 .list-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
 
     color: #FFFFFF;
