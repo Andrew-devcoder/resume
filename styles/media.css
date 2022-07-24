@@ -1,0 +1,59 @@
+/* PC */
+@media (max-width: 1230px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+                .main-content {
+                    padding: 30px 60px 40px 50px;
+                }
+}
+
+/* TEBLET */
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .main-content {
+        padding: 30px 60px 40px 50px;
+    }
+    .sidebar {
+        max-width: 230px;
+    }
+    .img {
+        max-width: 230px;
+    }
+    .sidebar-contacts,
+    .sidebar-tech,
+    .sidebar-soft,
+    .sidebar-additional,
+    .sidebar-languages {
+        margin-left: 17px;
+        margin-bottom: 27px;
+    }
+    .sidbar-title {
+        font-size: 18px;
+    }
+    .sidebar-info {
+        margin: 14px 0;
+    }
+    .sidebar-info {
+        margin: 7px 0;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
