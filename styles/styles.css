@@ -19,6 +19,7 @@ img {
 body {
     font-family: 'Calibri', 'Arial', sans-serif;
     font-size: 14px;
+    color: #000000;
 }
 
 h1 {
@@ -30,7 +31,6 @@ h1 {
     line-height: 55px;
     word-spacing: 10px;
 
-    color: #000000;
 }
 
 h2 {
@@ -39,8 +39,6 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: 17px;
-
-    color: #000000;
 }
 
 li {
@@ -89,8 +87,6 @@ li {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-
-    color: #000000;
 }
 
 .projects-content {
@@ -113,8 +109,6 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-
-    color: #000000;
 }
 
 .work {
@@ -155,8 +149,6 @@ li {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
-    color: #000000;
 }
 
 /* color */
@@ -168,8 +160,6 @@ li {
     padding: 0 5px;
 
     font-weight: 500;
-
-    color: #000000;
 }
 
 
@@ -181,16 +171,12 @@ li {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-
-    color: #000000;
 }
 
 .education-management { 
     font-style: normal;
     font-weight: 700;
     line-height: 17px;
-
-    color: #000000;
 }
 
 .sidebar {
@@ -268,5 +254,3 @@ li {
 
     color: #FFFFFF;
 }
-
-
