@@ -14,17 +14,29 @@
 
 /* TEBLET */
 @media (max-width: 991.98px) {
-    [class*="__container"] {
-        max-width: 750px;
-    }
+
     h1 {
         font-size: 40px;
     }
     body {
         font-size: 12px;
     }
+    [class*="__container"] {
+        max-width: 750px;
+    }
+    [class*="__block"] {
+        margin-bottom: 30px;
+        padding: 0;
+    }
     .main-content {
         padding: 30px 60px 40px 50px;
+    }
+    .date {
+        margin: 8px 0;
+        margin-bottom: 6px;
+    }
+    .education-title {
+        margin-bottom: 10px;
     }
     .sidebar {
         max-width: 230px;
@@ -44,9 +56,6 @@
         font-size: 18px;
     }
     .sidebar-info {
-        margin: 14px 0;
-    }
-    .sidebar-info {
         margin: 7px 0;
     }
 }
@@ -56,4 +65,11 @@
     [class*="__container"] {
         max-width: none;
     }
+    .img {
+        max-width: 100px;
+        margin: 30px;
+    
+        border-radius: 50px;
+    }
+    
 }
