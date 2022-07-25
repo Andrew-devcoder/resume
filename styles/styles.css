@@ -115,8 +115,13 @@ li {
     margin-left: 20px;
 }
 
-.projects-list,
-.projects-link {
+.projects-items {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.projects-items span, a {
     margin-left: 13px;
 
     font-style: normal;
@@ -124,12 +129,6 @@ li {
     line-height: 1.7;
 
     color: #595959;
-}
-
-.projects-items {
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.7;
 }
 
 .company {
