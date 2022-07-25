@@ -67,9 +67,25 @@
     }
     .img {
         max-width: 100px;
-        margin: 30px;
+        /* margin: auto; */
+        margin: 10px 30px;
     
-        border-radius: 50px;
+        border-radius: 20px;
     }
-    
+    .wrapper {
+        margin: 0;
+    }
+    .main__container {
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .sidebar {
+        max-width: 95px;
+    }
+    .contact-icon {
+        display: none;
+    }
+    .sidebar-contacts {
+        margin: 5px;
+    }
 }
