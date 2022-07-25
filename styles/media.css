@@ -88,4 +88,36 @@
     .sidebar-contacts {
         margin: 5px;
     }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    h2 {
+        margin-bottom: 10px;
+    }
+    .main-content {
+        padding: 25px 60px 40px 50px;
+    }
+    .about-content {
+        margin: 0 -30px 0 -20px;
+    }
+    .sidbar-title {
+        margin-bottom: 6px;
+        text-align: center;
+    }
+    .sidebar-contacts,
+    .sidebar-tech,
+    .sidebar-soft,
+    .sidebar-additional,
+    .sidebar-languages {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .list-li {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 412px) {
+
 }
