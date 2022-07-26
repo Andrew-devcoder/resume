@@ -154,3 +154,15 @@
         margin: 10px;
     }
 }
+
+@media (max-width: 397px) {
+    h1 {
+        font-size: 28px;
+        margin: 0 0 25px 75px;
+    }
+    h2 {
+        font-size: 12px;
+        margin-left: 70px;
+    }
+
+}
