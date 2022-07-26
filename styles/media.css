@@ -164,5 +164,7 @@
         font-size: 12px;
         margin-left: 70px;
     }
-
+    .main-content {
+        display: none;
+    }
 }
