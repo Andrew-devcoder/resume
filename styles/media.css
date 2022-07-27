@@ -167,4 +167,7 @@
     .wrapper {
         flex-direction: column-reverse;
     }
+    .sidebar {
+        max-width: 100%;
+    }
 }
