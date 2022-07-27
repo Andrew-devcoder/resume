@@ -156,18 +156,30 @@
 } */
 
 @media (max-width: 767px) {
-    /* h1 {
+    h1 {
         font-size: 28px;
-        margin: 0 0 25px 75px;
     }
     h2 {
         font-size: 12px;
-        margin-left: 70px;
-    } */
+    }
     .wrapper {
         flex-direction: column-reverse;
     }
     .sidebar {
         max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .img {
+        max-width: 150px;
+        border-radius: 2px;
+        margin: 5px;
+    }
+    .main__container {
+        border-radius: 0;
+    }
+    .wrapper {
+        margin: 0;
     }
 }
