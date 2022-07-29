@@ -126,6 +126,9 @@
     .sidebar-languages {
         margin: 0;
     }
+    .sidbar-title span {
+        display: none;
+    }
     .main__container {
         border-radius: 0;
     }
