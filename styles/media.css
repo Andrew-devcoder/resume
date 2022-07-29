@@ -7,9 +7,9 @@
     h1 {
         font-size: 40px;
     }
-                .main-content {
-                    padding: 30px 60px 40px 50px;
-                }
+    .main-content {
+        padding: 30px 60px 40px 50px;
+    }
 }
 
 /* * TEBLET */
@@ -60,8 +60,9 @@
     }
 }
 
-/* todo MOBILE */
-@media (max-width: 425px) {
+/* todo MOBILE 425px */ 
+
+@media (max-width: 761px) {
     h1 {
         font-size: 28px;
     }
@@ -74,9 +75,10 @@
     .sidebar {
         max-width: 100%;
     }
-    .sidebar-header {
+    .two-box {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin: 20px;
     }
     .img {
         max-width: 150px;
@@ -109,10 +111,6 @@
     .contact-icon {
         padding: 5px;
     }
-    .sidebar-skills {
-        display: flex;
-        justify-content: space-around;
-    }
     .sidbar-title {
         margin: 0;
     }
@@ -134,9 +132,7 @@
     .wrapper {
         margin: 0;
     }
-
-    .sidebar-tech {
-        flex: 0 1 33%;
+    .main-content {
+        padding: 20px;
     }
-
 }
