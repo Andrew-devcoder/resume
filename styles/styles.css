@@ -60,6 +60,10 @@ li {
     margin-bottom: 0;
 }
 
+.name {
+    display: none;
+}
+
 /* color */
 .orange-mark {
     color: #FB6D3A;
