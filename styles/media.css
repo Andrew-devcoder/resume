@@ -3,9 +3,6 @@
     [class*="__container"] {
         max-width: 900px;
     }
-    .main-content {
-        padding: 40px 70px 60px;
-    }
 }
 
 /* * TEBLET */
@@ -21,9 +18,6 @@
     }
     [class*="__block"] {
         margin-bottom: 30px;
-    }
-    .main-content {
-        padding: 30px 60px 50px;
     }
     .date {
         margin: 8px 0;
@@ -68,7 +62,18 @@
     .sidebar {
         max-width: 100%;
     }
-    .sidebar h2 {
+    .sidebar h2,
+    .img,
+    .sidebar-contacts,
+    .sidebar-info,
+    .sidebar-title,
+    .contact-icon,
+    .contact-link,
+    .sidebar-tech,
+    .sidebar-soft,
+    .sidebar-additional,
+    .sidebar-languages,
+    .wrapper {
         margin: 0;
     }
     .two-box {
@@ -78,7 +83,6 @@
         padding: 5px;
     }
     .img {
-        margin: 0;
         max-width: 150px;
         padding: 5px;
 
@@ -96,14 +100,7 @@
         flex-direction: column;
         justify-content: space-around;
         gap: 5px;
-        margin: 0;
         padding: 5px;
-    }
-    .sidebar-info {
-        margin: 0;
-    }
-    .sidebar-title {
-        margin: 0;
     }
     .sidebar-title span {
         display: none;
@@ -111,26 +108,8 @@
     .contact-icon {
         padding: 5px;
     }
-    .contact-link {
-        margin: 0;
-    }
-    .sidebar-tech {
-        margin: 0;
-    }
-    .sidebar-soft {
-        margin: 0;
-    }
-    .sidebar-additional{ 
-        margin: 0;
-    }
-    .sidebar-languages {
-        margin: 0;
-    }
     .main__container {
         border-radius: 0;
-    }
-    .wrapper {
-        margin: 0;
     }
     .main-content {
         padding: 20px;
