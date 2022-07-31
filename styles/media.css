@@ -10,9 +10,6 @@
     h1 {
         font-size: 40px;
     }
-    body {
-        font-size: 12px;
-    }
     [class*="__container"] {
         max-width: 750px;
     }
@@ -56,6 +53,9 @@
     }
     .wrapper {
         flex-direction: column-reverse;
+    }
+    .projects-items span, a {
+        margin: 0;
     }
     .sidebar {
         max-width: 100%;
@@ -114,10 +114,16 @@
     }
 }
 
-
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .img {
         max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
     }
     .two-box {
         margin: 10px;
