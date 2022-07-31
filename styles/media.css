@@ -26,10 +26,8 @@
     .education-title {
         margin-bottom: 10px;
     }
-    .sidebar {
-        max-width: 230px;
-    }
-    .img {
+    .sidebar,
+    .img  {
         max-width: 230px;
     }
     .sidebar-contacts,
