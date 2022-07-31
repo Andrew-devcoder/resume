@@ -138,6 +138,14 @@ li {
     color: #A8A8A8;
 }
 
+.date span {
+    padding: 0 5px;
+
+    font-weight: 500;
+
+    color: #000;
+}
+
 .education-title {
     margin-bottom: 12px;
 
@@ -151,6 +159,11 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: 1.2;
+}
+
+/* color */
+.orange-mark {
+    color: #FB6D3A;
 }
 
 .sidebar {
@@ -233,13 +246,3 @@ li {
     color: #FFFFFF;
 }
 
-/* color */
-.orange-mark {
-    color: #FB6D3A;
-}
-
-.black-line {
-    padding: 0 5px;
-
-    font-weight: 500;
-}
