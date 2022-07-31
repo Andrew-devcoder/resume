@@ -3,7 +3,6 @@
     [class*="__container"] {
         max-width: 970px;
     }
-
     h1 {
         font-size: 40px;
     }
@@ -14,7 +13,6 @@
 
 /* * TEBLET */
 @media (max-width: 991.98px) {
-
     h1 {
         font-size: 40px;
     }
@@ -26,7 +24,6 @@
     }
     [class*="__block"] {
         margin-bottom: 30px;
-        padding: 0;
     }
     .main-content {
         padding: 30px 60px 40px 50px;
@@ -60,8 +57,7 @@
     }
 }
 
-/* todo MOBILE 425px */ 
-
+/* * MOBILE 425px */ 
 @media (max-width: 761px) {
     h1 {
         font-size: 28px;
@@ -75,29 +71,36 @@
     .sidebar {
         max-width: 100%;
     }
+    .sidebar h2 {
+        margin: 0;
+    }
     .two-box {
         display: flex;
         justify-content: space-between;
         margin: 20px;
+        padding: 5px;
     }
     .img {
-        max-width: 150px;
-        border-radius: 10px;
-        padding: 5px;
         margin: 0;
+        max-width: 150px;
+        padding: 5px;
+
+        border-radius: 10px;
     }
     .name {
         display: flex;
-        margin: 0;
+
         font-size: 20px;
+
         color: #ffff;
     }
     .sidebar-contacts {
-        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         gap: 5px;
+        margin: 0;
+        padding: 5px;
     }
     .sidebar-info {
         margin: 0;
