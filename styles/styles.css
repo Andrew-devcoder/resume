@@ -90,6 +90,10 @@ li {
     margin-left: 20px;
 }
 
+.projects-title {
+    margin-bottom: 14px;
+}
+
 .projects-items {
     font-style: normal;
     font-weight: 700;
