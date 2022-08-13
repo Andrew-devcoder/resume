@@ -83,7 +83,7 @@
     .two-box {
         display: flex;
         justify-content: space-between;
-        margin: 20px;
+        margin: 10px;
         padding: 5px;
     }
     .img {
@@ -118,7 +118,7 @@
         border-radius: 0;
     }
     .main-content {
-        padding: 20px;
+        padding: 10px;
     }
 }
 
@@ -141,6 +141,7 @@
     .info h3 {
         display: none;
     }
+
 }
 
 @media (max-width: 320px) {
