@@ -46,7 +46,12 @@
 /* * MOBILE 425px */ 
 @media (max-width: 761px) {
     h1 {
-        font-size: 28px;
+        margin: 0;
+        position: absolute;
+        top: 25px;
+        left: 250px;
+        font-size: 16px;
+        color: #FB6D3A;
     }
     .wrapper {
         flex-direction: column-reverse;
@@ -57,7 +62,9 @@
     .sidebar {
         max-width: 100%;
     }
-    .sidebar h2,
+    .about__block h2 {
+        display: none;
+    }
     .img,
     .sidebar-contacts,
     .sidebar-info,
@@ -86,6 +93,8 @@
         border-radius: 10px;
     }
     .name {
+        padding: 25px 0 0 0;
+        margin: 0 0 10px;
         display: flex;
 
         font-size: 20px;
@@ -114,6 +123,10 @@
 }
 
 @media (max-width: 375px) {
+    h1 {
+        top: 10px;
+        left: 200px;
+    }
     h2 {
         font-size: 12px;
     }
@@ -121,11 +134,25 @@
         max-width: 100px;
         max-height: 100px;
     }
+    .name {
+        padding: 10px 0 0;
+        margin: 0 0 8px;
+    }
+    .info h3 {
+        display: none;
+    }
 }
 
 @media (max-width: 320px) {
     body {
         font-size: 12px;
+    }
+    h1 {
+        left: 180px;
+        font-size: 14px;
+    }
+    .name {
+        margin: 0;
     }
     .two-box {
         margin: 10px;
