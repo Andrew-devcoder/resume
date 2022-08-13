@@ -75,7 +75,7 @@
     .sidebar-additional,
     .sidebar-languages,
     .wrapper {
-        margin: 0;
+        margin: 10px;
     }
     .sidebar-title {
         margin-bottom: 6px;
